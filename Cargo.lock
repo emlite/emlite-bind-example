@@ -27,18 +27,18 @@ dependencies = [
 
 [[package]]
 name = "jsbind"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b3c8f762c09391b870db5123c53185a1824db24eba5c4d3814f6f3b17dec3615"
+checksum = "c769370db02ffa37986fe3895c776d5129ebd4644f756bbe3037d1c287bf13ab"
 dependencies = [
  "emlite",
 ]
 
 [[package]]
 name = "webbind"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fed95a2f19b8f12750e990ddac01b53bb07aad5abdb4eb2197fbc4017b21b78a"
+checksum = "152426bfa005faa8e9c479be692323535cbbb5e4200e2ff1abbb39933fc6ee9a"
 dependencies = [
  "emlite",
  "jsbind",
