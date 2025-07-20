@@ -24,10 +24,11 @@ fn main() {
     style.set_property0("border", "solid");
 
     button.set_text_content("Click me");
+    println!("{}", button.text_content());
     button.add_event_listener0(
         "click",
         &Closure::bind1(move |p: PointerEvent| {
-            con.log(&[p.client_x().into()]);
+            con.log(&[format!("You clicked at x:{}, y:{}\n", p.client_x(), p.client_y()).into()]);
         }).into()
     );
     body.append_child(button.dyn_ref::<Node>().unwrap());
