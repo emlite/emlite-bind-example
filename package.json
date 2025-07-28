@@ -4,8 +4,8 @@
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "cargo": "cargo build --target=wasm32-wasip1",
-    "pack": "webpack --mode=development",
+    "cargo": "cargo build --target=wasm32-wasip1 --release",
+    "pack": "webpack --mode=production",
     "serve": "http-server ./dist"
   },
   "keywords": [],
