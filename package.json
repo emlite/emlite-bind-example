@@ -14,7 +14,7 @@
   "description": "",
   "dependencies": {
     "@bjorn3/browser_wasi_shim": "^0.4.2",
-    "emlite": "^0.1.31"
+    "emlite": "^0.1.32"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
